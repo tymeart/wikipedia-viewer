@@ -46,6 +46,7 @@ body {
   padding: 16px 0;
   width: 200px;
   background-color: #329af0;
+  border-style: none;
   text-align: center;
   white-space: nowrap;
   min-width: 175px;
@@ -55,6 +56,7 @@ body {
   text-decoration: none;
   padding: 12px;
   color: white;
+  font-size: 1.6em;
   font-family: sans-serif;
 }
 
@@ -97,9 +99,9 @@ input {
 
 /*------------break point------------*/
 
-@media only screen 
+@media only screen
   and (max-width: 600px) {
-    
+
     .options {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -107,18 +109,18 @@ input {
               flex-direction: column;
       margin-top: 20px;
     }
-    
+
     .random,
     form,
     .results {
       width: 75%;
     }
-    
+
     .random a {
       padding-left: 50px;
       padding-right: 50px;
     }
-    
+
     input {
       width: 100%;
     }
