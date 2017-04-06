@@ -56,11 +56,11 @@ h1 {
   min-width: 175px;
 }
 
-.random a {
+.random {
   text-decoration: none;
   padding: 12px;
   color: white;
-  font-size: 1.6em;
+  font-size: 1em;
   font-family: sans-serif;
 }
 
